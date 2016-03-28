@@ -8,7 +8,7 @@ import sys
 import xbmc
 import re
 
-my_addon = xbmcaddon.Addon('plugin.video.Pac-12')
+my_addon = xbmcaddon.Addon('plugin.video.pac12-networks')
 addonPath = my_addon.getAddonInfo('path')
 icon = addonPath + '/icon.png'
 fanart = addonPath + '/fanart.jpg'
@@ -59,9 +59,9 @@ def addDir(name, url, mode, iconimage, fanart, description):
                 else:
                     title = ''
             except:
-                print 'problemy'
+                print 'Problem'
     except:
-        print "problemy z opisem"
+        print "Problem Description"
     u = sys.argv[0]+"?url="+urllib.quote_plus(url)+"&mode="+str(mode)+"&name="+urllib.quote_plus(name)+"&iconimage="+urllib.quote_plus(iconimage)+"&fanart="+urllib.quote_plus(fanart)
     ok = True
     liz = xbmcgui.ListItem(name + '[I]' + title + '[/I]', iconImage="DefaultFolder.png", thumbnailImage=iconimage)
