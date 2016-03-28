@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+  <!-- General -->
+  <category label="$LOCALIZE[128]">
+    <setting type="sep"/>
+    <setting id="use_PAC-12_intro" type="bool" label="Use PAC-12 Intro" default="true"/>
+  </category>
+  <category label="Links">
+    <setting type="lsep" label="Fill in the fields below with links to streamings."/>
+    <setting type="lsep" label="Example: http://xrxs.net******-4728.m3u8"/>
+    <setting type="lsep" label="Proper link should looks like: http://xrxs.net******netw- without 4728.m3u8"/>
+    <setting visible="true" type="text" default="http://pac12hd2-lh.akamaihd.net/i/p12netw_delivery@132840/index_"   id="National"  label="Pac National" />
+    <setting visible="true" type="text" default="http://pac12hd2-lh.akamaihd.net/i/p12ariz_delivery@132836/index_"   id="Arizona"  label="Arizona" />
+    <setting visible="true" type="text" default="http://pac12hd2-lh.akamaihd.net/i/p12baya_delivery@132837/index_"   id="Bay"  label="Bay Area" />
+    <setting visible="true" type="text" default="http://pac12hd2-lh.akamaihd.net/i/p12losa_delivery@132838/index_"   id="Angeles"  label="Los Angeles" />
+    <setting visible="true" type="text" default="http://pac12hd2-lh.akamaihd.net/i/p12moun_delivery@132839/index_"   id="Mountain"  label="Mountain" />
+    <setting visible="true" type="text" default="http://pac12hd2-lh.akamaihd.net/i/p12oreg_delivery@132835/index_"   id="Oregon"  label="Oregon" />
+    <setting visible="true" type="text" default="http://pac12hd2-lh.akamaihd.net/i/p12wash_delivery@132841/index_"   id="Washington"  label="Washington" />
+    <setting visible="true" type="text" default="http://"   id="BTN"  label="Big Ten Network" />
+
+    </category>
+</settings>
