@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.pac12-networks" version="1.0" name="Pac-12" provider-name="Sp0rtsFr3ak">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Pac-12</summary>
+        <description>Pac-12</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+</addons>
