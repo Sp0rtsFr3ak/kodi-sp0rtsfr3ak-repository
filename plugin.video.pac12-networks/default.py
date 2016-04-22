@@ -31,7 +31,7 @@ def CATEGORIES():
     addDir('Mountain', my_addon.getSetting("Mountain"), 1, 'http://x.pac-12.com/profiles/pac12/themes/pac12_foundation/images/pac12/networks/network-mountain.jpg', fanart, 'Pac-12 Mountain')
     addDir('Oregon', my_addon.getSetting("Oregon"), 1, 'http://x.pac-12.com/profiles/pac12/themes/pac12_foundation/images/pac12/networks/network-oregon.jpg', fanart, 'Pac-12 Oregon')
     addDir('Washington', my_addon.getSetting("Washington"), 1, 'http://x.pac-12.com/profiles/pac12/themes/pac12_foundation/images/pac12/networks/network-washington.jpg', fanart, 'Pac-12 Washington')
-
+    addDir('UtahLiveStream', my_addon.getSetting("UtahLiveStream"), 1, 'http://x.pac-12.com/profiles/pac12/themes/pac12_foundation/images/pac12/networks/network-mountain.jpg', fanart, 'Utah Live Stream')
 
 def addDir(name, url, mode, iconimage, fanart, description):
     try:
