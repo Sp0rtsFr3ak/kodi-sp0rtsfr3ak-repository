@@ -16,6 +16,7 @@
     <setting visible="true" type="text" default="http://pac12hd2-lh.akamaihd.net/i/p12moun_delivery@132839/index_"   id="Mountain"  label="Mountain" />
     <setting visible="true" type="text" default="http://pac12hd2-lh.akamaihd.net/i/p12oreg_delivery@132835/index_"   id="Oregon"  label="Oregon" />
     <setting visible="true" type="text" default="http://pac12hd2-lh.akamaihd.net/i/p12wash_delivery@132841/index_"   id="Washington"  label="Washington" />
+    <setting visible="true" type="text" default="http://pac12hd2-lh.akamaihd.net/i/adhoc_utah_ch_2@138597/master.m3u8"   id="UtahLiveStream"  label="Utah Live Stream" />
     <setting visible="true" type="text" default="http://"   id="BTN"  label="Big Ten Network" />
 
     </category>
